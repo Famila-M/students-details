@@ -1,0 +1,126 @@
+/* Sidebar */
+.sidebar {
+  position: fixed;
+  left: 0;
+  top: 0;
+  height: 100vh;
+  transition: width 0.3s ease;
+  width: 60px;
+  background: #001f54;
+  color: #6d6e7e;
+  overflow: hidden; /* Ensure sidebar contents don't overflow */
+}
+
+/* Expanded Sidebar */
+.sidebar.expanded {
+  width: 250px;
+}
+
+/* Sidebar Header */
+.sidebar .header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  background: #034078;
+}
+
+/* Sidebar Header Title */
+.sidebar .header .title {
+  font-size: 20px;
+  color: #6d6e7e;
+  margin: 0;
+  opacity: 1; /* Ensure title is visible when sidebar is expanded */
+  transition: opacity 0.3s ease;
+}
+
+/* Sidebar Header Toggle Button */
+.sidebar .header .toggle {
+  cursor: pointer;
+  width: 20px;
+  height: 20px;
+  /* display: none; Initially hide the toggle button */
+  align-items: center;
+  justify-content: center;
+  transition: opacity 0.3s ease;
+}
+
+/* Sidebar Header Chevron Icon */
+.sidebar .header .toggle .chevron::before {
+  border-style: solid;
+  border-width: 0.15em 0.15em 0 0;
+  content: "";
+  display: inline-block;
+  height: 0.35em;
+  width: 0.35em;
+  transform: rotate(45deg);
+  transition: transform 0.3s ease;
+}
+
+/* Sidebar Content Links */
+.sidebar .content {
+  margin-top: 10px;
+}
+
+.sidebar .content .link {
+  margin-bottom: 10px;
+}
+
+.sidebar .content .link .content {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.sidebar .content .link:hover .content .title {
+  background: #1282a2;
+  color: beige;
+}
+
+/* Sidebar Content Icon */
+.sidebar .content .link .content .icon {
+  flex: 0 0 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10px;
+}
+
+/* Sidebar Content Title */
+.sidebar .content .link .content .title {
+  flex: 1;
+  color: #6d6e7e;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+/* Active Link Styles */
+.sidebar .content .link.active .content {
+  background: #001f54;
+}
+
+.sidebar .content .link.active .content .title {
+  color: white;
+}
+
+/* Adjustments for Collapsed Sidebar */
+.sidebar.expanded .header .title {
+  margin-left: 10px;
+  opacity: 1;
+}
+
+.sidebar.expanded .header .toggle {
+  display: flex;
+  opacity: 1;
+}
+
+.sidebar.expanded .header .toggle .chevron::before {
+  transform: rotate(-135deg);
+}
+
+.sidebar:not(.expanded) .header .toggle {
+  display: flex;
+}

@@ -1,0 +1,287 @@
+[
+    {
+        "name": "John Smith",
+        "city": "New York City",
+        "state": "New York",
+        "country": "United State",
+        "physics": 80,
+        "chemistry": 86,
+        "math": 91,
+        "computer": 80
+    }
+    ,
+    {
+        "name": "Maria Garcia",
+        "city": "Los Angeles",
+        "state": "California",
+        "country": "United State",
+        "physics": 84,
+        "chemistry": 86,
+        "math": 90,
+        "computer": 80
+    }
+    ,
+    {
+        "name": "Mohammed Khan",
+        "city": "Karachi",
+        "state": "Sindh",
+        "country": "Pakistan",
+        "physics": 86,
+        "chemistry": 87,
+        "math": 92,
+        "computer": 80
+    }
+    ,
+    {
+        "name": "Ana Silva",
+        "city": "Rio de Janeiro",
+        "state": "Rio de Janeiro",
+        "country": "Brazil",
+        "physics": 85,
+        "chemistry": 79,
+        "math": 80,
+        "computer": 80
+    }
+    ,
+    {
+        "name": "Liu Wei",
+        "city": "Beijing",
+        "state": "Beijing",
+        "country": "China",
+        "physics": 85,
+        "chemistry": 84,
+        "math": 80,
+        "computer": 80
+    }
+    ,
+    {
+        "name": "Elena Petrova",
+        "city": "Moscow",
+        "state": "Moscow",
+        "country": "Russia",
+        "physics": 70,
+        "chemistry": 82,
+        "math": 87,
+        "computer": 80
+    }
+    ,
+    {
+        "name": "Miguel Hernandez",
+        "city": "Madrid",
+        "state": "Madrid",
+        "country": "Spain",
+        "physics": 79,
+        "chemistry": 73,
+        "math": 81,
+        "computer": 80
+    }
+    ,
+    {
+        "name": "Yuki Tanaka",
+        "city": "Tokyo",
+        "state": "Tokyo",
+        "country": "Japan",
+        "physics": 80,
+        "chemistry": 86,
+        "math": 91,
+        "computer": 80
+    }
+    ,
+    {
+        "name": "Hans Schmidt",
+        "city": "Berlin",
+        "state": "Berlin",
+        "country": "Germany",
+        "physics": 80,
+        "chemistry": 86,
+        "math": 91,
+        "computer": 80
+    }
+    ,
+    {
+        "name": "Fatemeh Zarei",
+        "city": "Tehran",
+        "state": "Tehran",
+        "country": "Iran",
+        "physics": 80,
+        "chemistry": 86,
+        "math": 91,
+        "computer": 80
+    }
+    ,
+    {
+        "name": "Anna Nowak",
+        "city": "Warsaw",
+        "state": "Masovian Voivodeship",
+        "country": "Poland",
+        "physics": 80,
+        "chemistry":86,
+        "math": 91,
+        "computer": 80
+    }
+    ,
+    {
+        "name": "Diego Lopez",
+        "city": "Mexico City",
+        "state": "Mexico City",
+        "country": "Mexico",
+        "physics": 80,
+        "chemistry": 86,
+        "math": 91,
+        "computer": 80
+    }
+    ,
+    {
+        "name": "Olga Ivanova",
+        "city": "Saint Petersburg",
+        "state": "Saint Petersburg",
+        "country": "Russia",
+        "physics": 80,
+        "chemistry": 86,
+        "math": 91,
+        "computer": 80
+    }
+    ,
+    {
+        "name": "Giovanni Rossi",
+        "city": "Rome",
+        "state": "Lazio",
+        "country": "Italy",
+        "physics": 80,
+        "chemistry": 86,
+        "math": 91,
+        "computer": 80
+    }
+    ,
+    {
+        "name": "Chen Wei",
+        "city": "Shanghai",
+        "state": "Shanghai",
+        "country": "China",
+        "physics": 80,
+        "chemistry": 86,
+        "math": 91,
+        "computer": 80
+    }
+    ,
+    {
+        "name": "Maria Fernández",
+        "city": "Buenos Aires",
+        "state": "Buenos Aires",
+        "country": "Argentina",
+        "physics": 80,
+        "chemistry": 86,
+        "math": 91,
+        "computer": 80
+    }
+    ,
+    {
+        "name": "Ahmed Ali",
+        "city": "Cairo",
+        "state": "Cairo",
+        "country": "Egypt",
+        "physics": 80,
+        "chemistry": 86,
+        "math": 91,
+        "computer": 80
+    }
+    ,
+    {
+        "name": "Hannah Müller",
+        "city": "Munich",
+        "state": "Bavaria",
+        "country": "Germany",
+        "physics": 80,
+        "chemistry": 86,
+        "math": 91,
+        "computer": 80
+    }
+    ,
+    {
+        "name": "Luisa Costa",
+        "city": "Lisbon",
+        "state": "Lisbon",
+        "country": "Portugal",
+        "physics": 80,
+        "chemistry": 86,
+        "math": 91,
+        "computer": 80
+    }
+    ,
+    {
+        "name": "Andrei Popov",
+        "city": "Bucharest",
+        "state": "Bucharest",
+        "country": "Romania",
+        "physics": 80,
+        "chemistry": 86,
+        "math": 91,
+        "computer": 80
+    }
+    ,
+    {
+        "name": "Javier Martinez",
+        "city": "Barcelona",
+        "state": "Catalonia",
+        "country": "Spain",
+        "physics": 80,
+        "chemistry": 86,
+        "math": 91,
+        "computer": 80
+    }
+    ,
+    {
+        "name": "Youssef Mahmoud",
+        "city": "Cairo",
+        "state": "Cairo",
+        "country": "Egypt",
+        "physics": 80,
+        "chemistry": 86,
+        "math": 91,
+        "computer": 80
+    }
+    ,
+    {
+        "name": "Nina Petrovic",
+        "city": "Belgrade",
+        "state": "Belgrade",
+        "country": "Serbia",
+        "physics": 80,
+        "chemistry": 86,
+        "math": 91,
+        "computer": 80
+    }
+    ,
+    {
+        "name": "Sofia Hernandez",
+        "city": "São Paulo",
+        "state": "São Paulo",
+        "country": "Brazil",
+        "physics": 80,
+        "chemistry": 86,
+        "math": 91,
+        "computer": 80
+    }
+    ,
+    {
+        "name": "Johan Johansson",
+        "city": "Stockholm",
+        "state": "Stockholm",
+        "country": "Sweden",
+        "physics": 80,
+        "chemistry": 86,
+        "math": 91,
+        "computer": 80
+    }
+    ,
+    {
+        "name": "Abdullah Al-Rashid",
+        "city": "Riyadh",
+        "state": "Riyadh",
+        "country": "Saudi Arabia",
+        "physics": 80,
+        "chemistry": 86,
+        "math": 91,
+        "computer": 80
+    }
+]

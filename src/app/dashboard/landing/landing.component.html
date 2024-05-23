@@ -1,0 +1,54 @@
+<div class="students-record">
+  <form>
+    <div class="mb-3 row">
+      <label for="table-filtering-search" class="col-xs-3 col-sm-auto col-form-label">Search</label>
+      <div class="col-xs-3 col-sm-auto">
+        <!-- Added the 'name' attribute to the input element -->
+        <input id="table-filtering-search" class="form-control" type="text" [(ngModel)]="filter.value" name="tableFilter" placeholder="Search...">
+      </div>
+    </div>
+  </form>
+  <table class="table table-striped record-table">
+    <thead>
+      <tr>
+        <th>#</th>
+        <th>Name</th>
+        <th>Country</th>
+        <th>Physics</th>
+        <th>Chemistry</th>
+        <th>Maths</th>
+        <th>Computer</th>
+      </tr>
+    </thead>
+    <tbody>
+      <ng-container *ngIf="students && students.length; else noRecords">
+        <tr *ngFor="let student of students; let i = index">
+          <td>{{ i + 1 }}</td>
+          <td>
+            <ngb-highlight [result]="student.name" [term]="filter.value"></ngb-highlight>
+          </td>
+          <td>
+            <ngb-highlight [result]="student.country" [term]="filter.value"></ngb-highlight>
+          </td>
+          <td>
+            <ngb-highlight [result]="student.physics" [term]="filter.value"></ngb-highlight>
+          </td>
+          <td>
+            <ngb-highlight [result]="student.chemistry" [term]="filter.value"></ngb-highlight>
+          </td>
+          <td>
+            <ngb-highlight [result]="student.math" [term]="filter.value"></ngb-highlight>
+          </td>
+          <td>
+            <ngb-highlight [result]="student.computer" [term]="filter.value"></ngb-highlight>
+          </td>
+        </tr>
+      </ng-container>
+      <ng-template #noRecords>
+        <tr>
+          <td colspan="7">No Records to show</td>
+        </tr>
+      </ng-template>
+    </tbody>
+  </table>
+</div>
